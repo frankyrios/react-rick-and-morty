@@ -1,0 +1,50 @@
+.filtrar {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+input {
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  outline: var(--color-primary);
+  width: 100%;
+}
+
+.fullPage {
+  background-color: #212529;
+  height: 75vh;
+  width: 100%;
+  color: aqua;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+span::before {
+  content: "Rick";
+  animation: animate infinite 3s;
+  padding-left: 10px;
+  color: aquamarine;
+}
+
+@keyframes animate {
+
+  0% {
+      content: "Rick";
+  }
+
+  50% {
+      content: "And";
+  }
+
+  75% {
+      content: "Morty";
+  }
+}
