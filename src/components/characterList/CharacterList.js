@@ -42,7 +42,7 @@ function NavPage({ page, setPage }) {
           setPage(page + 1);
           store.dispatch(siguiente);
         }}
-      > Page {page}→ </button>
+      > Page {page+1}→ </button>
 
     </header>
   );
